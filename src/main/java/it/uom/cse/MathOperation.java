@@ -3,7 +3,6 @@ package it.uom.cse;
 import java.util.Arrays;
 
 
-
 public class MathOperation {
 
     public static double add(double... operands)
@@ -42,4 +41,7 @@ public class MathOperation {
     }
 
 
+    public static int sumOfIntegers(int n) {
+        return (n * (n+1))/2;
+    }
 }
